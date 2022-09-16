@@ -1,3 +1,9 @@
+#license of the code is GPLv3 or later
+#(C) 2022 A. Mahr
+# copy and paste below into your .bashrc 
+# for install purposes it will require sudo password once
+
+
 # given that `history` is a shell builtin nn.save is better implemented as a 
 # bash shell function as this way calling `history` can be used to also get the most 
 # recent history items
