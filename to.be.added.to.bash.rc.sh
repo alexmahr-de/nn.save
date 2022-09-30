@@ -80,4 +80,4 @@ nn.save() {
         }
     }
 }
-PATH="$PATH:/usr/bin/nn.script"
+PATH="$PATH:/usr/bin/nn.scripts"
