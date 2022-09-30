@@ -9,7 +9,7 @@
 # recent history items
 
 #initial setup to be run as root uid=0
-test -d "bin/nn.scripts" || {
+test -d "/bin/nn.scripts" || {
     # create the necessary directory to be appended to $PATH 
     # this /bin/nn.scripts directory serves the purpose that 
     # only root can write files into it, so once added to $PATH
@@ -80,3 +80,4 @@ nn.save() {
         }
     }
 }
+PATH="$PATH:/usr/bin/nn.script"
